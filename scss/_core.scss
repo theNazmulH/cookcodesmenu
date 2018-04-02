@@ -1,0 +1,103 @@
+
+*:hover,
+*:focus{
+	text-decoration: none;
+	border: none;
+}
+.cookcodesmenu_btn {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	float: right;
+	padding: 0.438em 0.625em 0.438em 0.625em;
+	line-height: 1.125em;
+	cursor: pointer;
+	.cookcodesmenu_icon-bar + .cookcodesmenu_icon-bar {
+		margin-top: 0.188em;
+	}
+}
+.cookcodesmenu_menu {
+	*zoom: 1;
+	.cookcodesmenu_menutxt {
+		display: block;
+		line-height: 1.388em;
+		float: left;
+	}
+	.cookcodesmenu_icon {
+		float: left;
+        width: 30px;
+        height: auto;
+		margin: 0.188em 0 0 0.438em;
+        &:before { // Firefox Mobile v42 bugfix
+            background: transparent;
+            width: 30px;
+            height: auto;
+            display: block;
+            content: "";
+            position: absolute;
+        }
+	}
+	.cookcodesmenu_no-text {
+		margin: 0;
+	}
+	.cookcodesmenu_icon-bar {
+		display: block;
+		width: 30px;
+		height: 3px;
+		margin-bottom: 4px;
+		-webkit-border-radius: 1px;
+		-moz-border-radius: 1px;
+		border-radius: 1px;
+		-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+		box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	}
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+.cookcodesmenu_nav {
+	clear: both;
+	ul {
+		display: block;
+	}
+	li {
+		display: block;
+	}
+	.cookcodesmenu_arrow {
+		font-size: 0.8em;
+		margin: 0 0 0 0.4em;
+		float: right;
+		border-left: 1px solid rgba(255,255,255,.1);
+		padding-left: 15px;
+		font-size: 15px;
+	}
+	.cookcodesmenu_item {
+		cursor: pointer;
+		a {
+			display: inline;
+		}
+	}
+	.cookcodesmenu_row {
+		display: block;
+	}
+	a {
+		display: block;
+	}
+	.cookcodesmenu_parent-link a {
+		display: inline;
+	}
+}
+.cookcodesmenu_brand {
+	float: left;
+}
+.menuHidden{
+	display: none !important;
+}
+
