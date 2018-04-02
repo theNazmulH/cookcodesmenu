@@ -2,7 +2,9 @@
 ## Responsive Mobile Menu jQuery Plugin
 * * *
 ### Demo
-Resize your browser to see Mobile Menu
+
+
+
 
 ### Usage
 
