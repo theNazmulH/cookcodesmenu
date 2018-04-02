@@ -1,9 +1,7 @@
 # cookcodesmenu v1.0
 ## Responsive Mobile Menu jQuery Plugin
 * * *
-### Demo
-
-
+###  [Demo](https://nazmulh.github.io/cookcodesmenu/demo/)
 
 
 ### Usage
