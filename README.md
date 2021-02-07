@@ -8,12 +8,12 @@
 
 #### Include the CSS
 
-	<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/nazmulh/cookcodesmenu/master/cookcodesmenu.min.css" />
+	<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/thenazmulh/cookcodesmenu/master/cookcodesmenu.min.css" />
 
 
 #### Include the JS
     
-    <script type="text/javascript" src="https://cdn.rawgit.com/nazmulh/cookcodesmenu/master/jquery.cookcodesmenu.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/thenazmulh/cookcodesmenu/master/jquery.cookcodesmenu.min.js"></script>
 
 
 #### Menu Markup
